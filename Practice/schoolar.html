@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let marks = Number(prompt("Enter Marks:"));
+        let income = Number(prompt("Enter Family Income:"));
+
+        if (marks >= 90) {
+
+            if (income < 300000) {
+                alert("Scholarship Eligible");
+            }
+            else {
+                alert("Not Eligible (Income High)");
+            }
+
+        }
+        else {
+            alert("Not Eligible (Marks Less)");
+        }
+    </script>
+</body>
+
+</html>

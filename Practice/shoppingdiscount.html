@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let purchase = Number(prompt("Enter Purchase Amount:"));
+
+        if (purchase >= 5000) {
+            let discount = purchase * 20 / 100;
+            alert("20% Discount = ₹" + discount);
+        }
+        else if (purchase >= 3000) {
+            let discount = purchase * 10 / 100;
+            alert("10% Discount = ₹" + discount);
+        }
+        else {
+            alert("No Discount");
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let age = Number(prompt("Enter Age:"));
+        let salary = Number(prompt("Enter Annual Salary:"));
+        let cibil = Number(prompt("Enter CIBIL Score:"));
+
+        if (age >= 21 && age <= 71) {
+
+            if (salary >= 300000 && salary <= 2500000) {
+
+                if (cibil >= 750) {
+                    alert("Loan Approved");
+                }
+                else {
+                    alert("Loan Rejected (Low CIBIL)");
+                }
+
+            }
+            else {
+                alert("Salary Not Eligible");
+            }
+
+        }
+        else {
+            alert("Age Not Eligible");
+        }
+    </script>
+</body>
+
+</html>
